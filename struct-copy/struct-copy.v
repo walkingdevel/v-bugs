@@ -2,7 +2,6 @@ module main
 
 [heap]
 struct Window {
-	title     string
 	on_resize fn ()
 	on_click  fn ()
 }
@@ -19,7 +18,6 @@ fn main() {
 	}
 
 	app.window = &Window{
-		title: 'Test Title'
 		on_resize: app.method1
 		on_click: app.method2
 	}
