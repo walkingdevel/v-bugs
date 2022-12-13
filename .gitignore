@@ -1,7 +1,9 @@
 .DS_Store
 
 .vscode
+.idea
 
 internal-memory/internal-memory
 orm/orm
 orm-limit/orm-limit
+clojure/clojure
